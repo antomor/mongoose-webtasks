@@ -1,0 +1,33 @@
+{
+  "name": "mongoose-webtask",
+  "version": "1.0.0",
+  "description": "A small example of usage of webtask.io with mongoose",
+  "main": "app.js",
+  "directories": {
+    "test": "spec"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mongoose": "^4.6.0",
+    "path": "^0.12.7",
+    "http": "^0.0.0"
+  },
+  "devDependencies": {
+    "frisby": "^0.8.5",
+    "jasmine-node": "^1.14.5"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/jasmine-node spec",
+    "start": "node api/server.js",
+    "deploy-webtask": "wt create --secret MONGO_URL=mongodb://amdevelop:test@ds021026.mlab.com:21026/amdevelop webtasks/mongoose-webtasks.js --name express"
+  },
+  "keywords": [
+    "webtask.io",
+    "webtask",
+    "mongoose",
+    "mongodb"
+  ],
+  "author": "Antonio Morrone",
+  "license": "ISC"
+}
