@@ -1,6 +1,6 @@
 # mongoose-webtasks #
 
-This application is a demo app that represents an example of usage of the libraries mongoose and webtask.
+This application is a demo app that represents an example of usage of the libraries *mongoose* and *webtask*.
 For more info about the tools:
 
 * [webtask.io](https://webtask.io)
