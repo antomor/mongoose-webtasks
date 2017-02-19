@@ -26,7 +26,7 @@ npm run-script deploy-webtask
 ```
 
 ### Important!
-In order to run it locally, mongodb should be installed and running.
+In order to run it locally, **mongodb** should be installed and running locally.
 For more info:
 [mongodb](https://www.mongodb.com/)
 
