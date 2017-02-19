@@ -12,24 +12,16 @@ For testing the application, [FrisbyJS](http://frisbyjs.com/) has been used.
 
 * As a standard NodeJS application, all you need to do for installing it is:
 ```
-#!
-
 npm install
 ```
 
-
 * How to run tests:
 ```
-#!
-
 npm test
 ```
 
-
 * Deployment instructions, it has been create a short-cut for building the webtask:
 ```
-#!
-
 npm run-script deploy-webtask
 ```
 
